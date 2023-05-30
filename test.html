@@ -1,0 +1,81 @@
+
+ <script>/*<![CDATA[*/
+const url = window.location.search;
+
+const data = new URLSearchParams(url)
+var alias = data.get('url')
+console.log(alias)
+if(alias == "" || alias == null ) {
+
+} else {
+
+ // set cookie expiration time
+var expiration = new Date();
+expiration.setTime(expiration.getTime() + (1 * 50 * 500)); // 3 minutes from now
+//
+document.cookie = "url="+  alias + ";" + "expires=" + expiration.toUTCString() +  ";"
+window.location.href = "/#2";
+
+
+
+
+}
+// Gat unluck aufftool.in 
+
+
+function get_cookie(cookie_name) {
+let c_name = cookie_name + "=";
+let cookie_decoded = decodeURIComponent(document.cookie);
+let cookie_parts = cookie_decoded.split(';');
+for(let i = 0; i <cookie_parts.length; i++) {
+  let c = cookie_parts[i];
+  while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+  }
+  if (c.indexOf(c_name) == 0) {
+      return c.substring(c_name.length, c.length);
+  }
+}
+return "";
+}
+var cookieName = get_cookie("url")
+// Get the button element by its id
+var button = document.getElementById("mylinkx");
+if( cookieName != "" ) {
+var linkx = "https://linkopenergo.blogspot.com/2023/04/what-is-safe-link.html#?url="+cookieName
+// by all gaming video update 
+button.href = linkx;
+
+
+
+}/*]]>*/</script>
+  <script>/*<![CDATA[*/ var uri = window.location.toString();if (uri.indexOf("?m=1","?m=1") > 0) {var clean_uri = uri.substring(0, uri.indexOf("?m=1"));window.history.replaceState({}, document.title, clean_uri); }; 
+
+
+
+
+
+
+function get_cookie(cookie_name) {
+let c_name = cookie_name + "=";
+let cookie_decoded = decodeURIComponent(document.cookie);
+let cookie_parts = cookie_decoded.split(';');
+for(let i = 0; i <cookie_parts.length; i++) {
+  let c = cookie_parts[i];
+  while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+  }
+  if (c.indexOf(c_name) == 0) {
+      return c.substring(c_name.length, c.length);
+  }
+}
+return "";
+}
+var cookieName = get_cookie("url")
+if( cookieName != "" ) {
+var linkx = "https://linkopenergo.blogspot.com/2023/04/what-is-safe-link.html"+cookieName
+const encodedStr = btoa(linkx);
+var resultgenerate = "https://progolink.blogspot.com/aufftool.in" + "?url=" + cookieName;
+window.location.href = resultgenerate;
+}
+/*]]>*/</script>
