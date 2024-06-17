@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aufftool",
+  "private_key_id": "cfb5b79457b777236aef20d864159563d0ce4795",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnbq4TmiF5yDN0\nc36LVi3gyMbNVq+g7AL7psIt6UnGBmWaNP/G8Qu7erS2ZLGgEtRQi6hSabyUIFqE\nDgcz40390TzsAcFwbh1soV/dsLbWj5F27xYxUaJoFlGgHHzzOMNAd+KWpAzInKzI\n2zr4UDV3dZinQLZ2iMBlpz4J/BnMpYGT+iu9AZuDXlYJVcNZGETzCbPSy+1wMc4p\nqUNotg3fDZdWyJYRpUMkmNMRwG64avP8b123UEabeH7HpQpoTygLfYD/40+OZqmc\nXqAkBxjRsTBZ7JABxUPXMGSgWl4zVlBNcLQV44pd4IXmjLm6n91YwmI+Vm+fI73b\nAeEdU4JJAgMBAAECggEAEIeGu/ytbV5sZgS463yYjuaDaeYy9IoYSUvPQ8USOXCM\nO0scLUHCzMFyccdDGfCB8Wm4Nlql+WGwTfUslNzN6E7t2sbZmAXm9cCAvFwj0M7f\np4Q3BqtugyQg7tOhKkniTM0JG6IaePuuuy2ZhsY0YRTE+04SNWWOyPpXz5iJ24Aa\nhJIuBBclQ8A0c5iaiPR1UfU8gumo3Rjm/RetmJuC4Gc172AsXTjTs6hNTPuBBHN1\nmNi5AvVg+iC4p5j13BlhlKIBRorJYEjkYJxM7LR1sP06+D0dA6kfUEdzyN50hvSN\naUoUfHBYJ9rKBBO2xkWxC7aHiBhDf07SzMcyOb5JmQKBgQDUU2zST9Q3caZQn82N\nwI6vkJifg4aPPd1TecMxtASIrBAjL0kG5XEwaDC22IDC1a6SXz57tCvhP5ltUyaB\n2Qr3xoOEzp3LC7Icyh62utpzbP0zvAhUZCxVmpprJtICFRKzbY5ssyessu9WVcRp\nR6v8c7I1l/p22r6J8WZYUXOAKwKBgQDJ30SuP3iD2IaN2RHl7Ma+XBbEsclfgw5x\nHK6l1ZHOzDDgtB2uI19SvJCW1MuUx7tuBqofWqZCFZyktjDsiy5wcmqEmUB0zK91\nk0+ZSXdBEpqqVoJLQOzu0HU113St4y/k0GTHzOZCKR/NFofJNXJcw4bn77manTYI\nzM2B9CJZWwKBgEzzj1UJqZgOkIBX6l+dkhj/BtGJEZOIkFZYou24mIwQECkwUf81\n2Lf6iu05ujDi0MoryrF6swyHyEte/23AA8GZKMFRQM7+Bid4+Xiwb8u1jG7bjwlG\n5OqBhcWf5CztBkIRSrUKmS52C1f27aBaYXK1W7kgw52f2b6UxsrrejjRAoGAZhut\nhKmMDrxtyr/aQr9SA6VWyuTWY55JpsMIP89X8g7sRiw0uwkfRR0l0XUPCFFCp7Nt\nR3C1mcWOtu2Er5Dyy2PEJw/RP4Ls2P7LC1DSpjJ/0trxCplrfpwoPTSeyvmYFxel\ncj5c1Wgxsq3LvuVu1Cb+TMC/08njM+5LoIjY+vMCgYEAmnZSJ3/6fS+VF12zHrZb\nFgsfOntfVtQiqe1fXqH99ecvnr/nDqjYIGhiUu0speJCB8g7UhOIk1OlgtboSl0z\nbkLYe7nGkFBYDdoKIQB2Ex7R9HFNJiSGIlZfXBux33VBtDsyF6qi7TswE5F40WMz\nsIk8fKr0nY0GypoaCBAmURY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "all-gaming-video-update@aufftool.iam.gserviceaccount.com",
+  "client_id": "106710748203920007610",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/all-gaming-video-update%40aufftool.iam.gserviceaccount.com"
+}
