@@ -1,0 +1,86 @@
+        .code-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            padding: 0 15px; /* For small screen padding */
+        }
+
+        .codebox {
+            display: flex;
+            align-items: center;
+            border: 2px solid #E0E0E0;
+            border-radius: 60px;
+            padding: 4px;
+            width: 300px;
+            transition: border-color 0.3s ease;
+        }
+
+        .codebox input[type="text"] {
+            border: none;
+            outline: none;
+            width: 80%;
+            font-size: 16px;
+            background-color: transparent;
+        }
+
+        .codebox input[type="text"]::placeholder {
+            color: #A9A9A9;
+        }
+
+        .codebox input[type="text"]:focus {
+            border: none;
+            outline: none;
+        }
+
+        .codebox:focus-within {
+            border-color: #FFD700;
+        }
+
+        .copy-button {
+            padding: 6px 6px;
+            background-color: #FFD700;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 15px;
+            color: #000;
+            transition: background-color 0.3s ease;
+            margin-left: 6px;
+            width: 150px
+        }
+
+        .copy-button:hover {
+            background-color: #FFC107;
+        }
+
+        /* Media Queries for Mobile Screens */
+        @media (max-width: 600px) {
+            .codebox {
+                width: 100%; /* Full width on mobile */
+                border-radius: 20px; /* Slightly smaller radius for mobile */
+            }
+
+            .copy-button {
+                padding: 8px 15px; /* Smaller button on mobile */
+                font-size: 14px;   /* Slightly smaller text */
+                border-radius: 15px; /* Smaller border radius */
+                margin-left: 5px; /* Smaller gap between input and button */
+            }
+        }
+
+        /* Media Queries for larger screens (desktops) */
+        @media (min-width: 1024px) {
+            .code-container {
+                margin-top: 100px; /* More spacing on larger screens */
+            }
+
+            .codebox {
+                width: 400px; /* Larger input box on desktop */
+            }
+
+            .copy-button {
+                padding: 12px 25px; /* Larger button on desktop */
+                font-size: 18px; /* Slightly larger text */
+            }
+        }
